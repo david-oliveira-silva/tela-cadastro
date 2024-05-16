@@ -21,7 +21,7 @@ body{
     border: 1px solid ;
   
     
-    background-color: #fff;
+    background-color: #f5f1f1;
  
 }
 .logo img{
@@ -56,15 +56,30 @@ background-color: #dbd5d5aa;
 border: none;
 
 }
-#botoes{
-    display: flex;
-    flex-direction: row;
-    gap: 38px;
-    margin-top: 40px;
-    margin-left: 100px;
-    
-    
+#botoes  {
+ text-align: center;
+ align-items: center;
+ margin-top: 3px;
+ padding: 10px;
+ 
 }
+#botoes button{
+    border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+   }
+   #google{
+    background-color: white;
+   }
+   #face{
+    background-color: rgb(39, 88, 250);
+    color: white;
+   }
+   #apple{
+    background-color: black;
+    color: white;
+   }
 #botoes input[type = image]{
    width: 50px;
    height: 40px; 
@@ -76,7 +91,7 @@ border: none;
 .enviar{
     position: relative;
     top: 200px;
-    right: 230px;
+   
     
 }
 .enviar input{
